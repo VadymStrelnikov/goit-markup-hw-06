@@ -1,0 +1,68 @@
+/* font-family: "Roboto", sans-serif;
+font-family: "Raleway", sans-serif; */
+:root {
+	--main-bg-color: #ffffff;
+	--modal-bg-color: #fcfcfc;
+	--hero-bg-color: rgba(46, 47, 66, 0.7);
+	--modal-overlay-color: rgba(46, 47, 66, 0.4);
+	--light-color: #f4f4fd;
+	--accent-color: #e7e9fc;
+	--subtle-text-color: #8e8f99;
+	--text-color: #434455;
+	--success-color: #31d0aa;
+	--dark-color: #2e2f42;
+	--primary-brand-color: #4d5ae5;
+	--pressed-state-color: #404bbf;
+}
+body {
+	font-family: "Roboto", sans-serif;
+	color: var(--text-color);
+	background-color: var(--main-bg-color);
+}
+
+ul,
+li {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.logo {
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--primary-brand-color);
+}
+.logo-part {
+	color: var(--dark-color);
+}
+.nav-link {
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--dark-color);
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.contacts-item:hover,
+.contacts-item:focus {
+	color: var(--pressed-state-color);
+}
+
+.contacts {
+	font-style: normal;
+}
+.contacts-link {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+}
