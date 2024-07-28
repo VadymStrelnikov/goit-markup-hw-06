@@ -46,7 +46,6 @@ a {
 	font-family: "Roboto", sans-serif;
 	font-weight: 500;
 	font-size: 16px;
-
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: var(--dark-color);
@@ -54,15 +53,15 @@ a {
 
 .nav-link:hover,
 .nav-link:focus,
-.contacts-item:hover,
-.contacts-item:focus {
+.contacts-href:hover,
+.contacts-href:focus {
 	color: var(--pressed-state-color);
 }
 
 .contacts {
 	font-style: normal;
 }
-.contacts-link {
+.contacts-href {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
@@ -92,6 +91,10 @@ a {
 	border-radius: 4px;
 	width: 169px;
 	height: 56px;
+}
+.hero-button:hover,
+.hero-button:focus {
+	background-color: var(--pressed-state-color);
 }
 /* .qualities {
 } */
