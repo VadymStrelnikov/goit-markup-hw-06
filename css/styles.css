@@ -140,8 +140,6 @@ a {
 }
 .our-team-items {
 	background-color: var(--main-bg-color);
-	border-radius: 0 0 4px 4px;
-	box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 /* .our-team-fotos {
 } */
@@ -170,13 +168,14 @@ a {
 	line-height: 1.11;
 	letter-spacing: 0.02em;
 	text-align: center;
+	text-transform: capitalize;
 
 	color: var(--dark-color);
 }
-.our-portfolio-list {
+/* .our-portfolio-list {
 }
 .our-portfolio-items {
-}
+} */
 .our-portfolio-items-title {
 	font-weight: 500;
 	font-size: 20px;
