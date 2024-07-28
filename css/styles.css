@@ -69,7 +69,6 @@ a {
 
 .hero-section {
 	background-color: var(--dark-color);
-	height: 600px;
 }
 .hero-title {
 	font-weight: 700;
@@ -85,10 +84,7 @@ a {
 	line-height: 1.5;
 	letter-spacing: 0.04em;
 	color: var(--main-bg-color);
-
-	background: #4d5ae5;
-	border: none;
-
+	background-color: var(--primary-brand-color);
 	cursor: pointer;
 }
 .hero-button:hover,
