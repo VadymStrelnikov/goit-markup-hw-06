@@ -123,8 +123,8 @@ a {
 .our-team-title {
 	font-weight: 700;
 	font-size: 36px;
-
-	line-height: 1.11111;
+	text-transform: capitalize;
+	line-height: 1.11;
 	letter-spacing: 0.02em;
 	text-align: center;
 	color: var(--dark-color);
@@ -207,6 +207,7 @@ a {
 	font-size: 18px;
 	line-height: 1.17;
 	letter-spacing: 0.03em;
+	text-transform: uppercase;
 	color: var(--primary-brand-color);
 }
 .footer-logo-part {
