@@ -26,6 +26,12 @@ h3,
 p {
   margin: 0;
 }
+button {
+  font: inherit;
+  appearance: none;
+  border: 0;
+  cursor: pointer;
+}
 
 ul,
 li {
@@ -131,7 +137,7 @@ a {
   color: var(--main-bg-color);
 
   display: block;
-  max-width: 497px;
+  max-width: 496px;
   margin: 0 auto;
 }
 .hero-button {
@@ -183,13 +189,14 @@ a {
   letter-spacing: 0.02em;
   color: var(--dark-color);
   text-align: left;
+  margin-bottom: 8px;
 }
 .qualities-items-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
-  margin-top: 8px;
+  
 }
 
 .our-team {
