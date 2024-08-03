@@ -181,7 +181,7 @@ a {
 }
 .qualities-items {
   width: calc((100% - 3 * 24px) / 4);
-
+}
 .qualities-items-title {
   font-weight: 500;
   font-size: 20px;
@@ -196,7 +196,6 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
-  
 }
 
 .our-team {
@@ -209,12 +208,22 @@ a {
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: var(--dark-color);
+  text-align: center;
+  margin-bottom: 72px;
 }
-/* .our-team-list {
-	
-} */
+.our-team-items-content {
+  margin: 32px 16px;
+  text-align: center;
+}
+.our-team-list {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
 .our-team-items {
   background-color: var(--main-bg-color);
+}
+.our-team-items-content {
 }
 /* .our-team-fotos {
 } */
@@ -242,11 +251,11 @@ a {
   text-transform: capitalize;
   color: var(--dark-color);
 }
-/* .our-portfolio-list {
+.our-portfolio-list {
 }
 .our-portfolio-items {
-} */
-.our-portfolio-items-title {
+}
+*/ .our-portfolio-items-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
