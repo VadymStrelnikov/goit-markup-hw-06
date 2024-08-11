@@ -226,6 +226,35 @@ a {
   justify-content: center;
   margin-bottom: 8px;
 }
+
+.icons-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 8px;
+}
+.icons-item {
+  width: 40px;
+  height: 40px;
+}
+.icons-item-link {
+  background-color: var(--primary-brand-color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.our-team-icons {
+  fill: #f4f4fd;
+}
+.icons-item-link:hover {
+  background-color: var(--pressed-state-color);
+}
+
 .qualities-items-title {
   font-weight: 500;
   font-size: 20px;
