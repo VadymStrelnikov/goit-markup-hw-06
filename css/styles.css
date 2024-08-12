@@ -447,3 +447,6 @@ footer-icons-list {
 .social-container .icons-list {
   gap: 16px;
 }
+.icons-item-link-mod:hover {
+  background-color: var(--success-color);
+}
