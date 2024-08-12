@@ -425,3 +425,25 @@ a {
   color: var(--light-color);
   max-width: 264px;
 }
+
+.footer-container {
+  display: flex;
+  gap: 120px;
+}
+
+footer-icons-list {
+  gap: 50px;
+}
+
+.social-container p {
+  color: var(--light-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+
+.social-container .icons-list {
+  gap: 16px;
+}
