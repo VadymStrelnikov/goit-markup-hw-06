@@ -428,15 +428,11 @@ a {
 
 .footer-container {
   display: flex;
-  gap: 120px;
+  align-items: baseline;
 }
 
-footer-icons-list {
-  gap: 50px;
-}
-
-.social-container p {
-  color: var(--light-color);
+.social-container-text {
+  color: var(--main-bg-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -444,9 +440,14 @@ footer-icons-list {
   margin-bottom: 16px;
 }
 
+.logo-container {
+  margin-right: 120px;
+}
+
 .social-container .icons-list {
   gap: 16px;
 }
-.icons-item-link-mod:hover {
+.icons-item-link-mod:hover,
+.icons-item-link-mod:focus {
   background-color: var(--success-color);
 }
