@@ -34,6 +34,7 @@ button {
   appearance: none;
   border: 0;
   cursor: pointer;
+  padding: 0;
 }
 
 ul,
@@ -476,9 +477,7 @@ a {
   display: flex;
   align-items: center;
 }
-.our-team-icons {
-  margin-left: 16px;
-}
+
 .input-email-footer {
   outline: none;
   border: 1px solid #fff;
@@ -550,6 +549,7 @@ a {
 .modal-close-btn:hover .icon-close,
 .modal-close-btn:focus .icon-close {
   fill: var(--main-bg-color);
+  border: none;
 }
 
 .icon-close {
@@ -569,10 +569,10 @@ a {
 .input-wrapper {
   display: flex;
   flex-direction: column;
+  margin-bottom: 8px;
 }
 .input-svg-wrapper {
   position: relative;
-  margin-bottom: 8px;
 }
 .modal-input {
   width: 100%;
@@ -580,6 +580,7 @@ a {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   padding-left: 38px;
+  background-color: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-input {
@@ -621,9 +622,26 @@ a {
   border-radius: 4px;
   padding: 8px 16px;
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+  background-color: transparent;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.text-area:focus {
+  border-color: var(--primary-brand-color);
 }
 .text-area::placeholder {
   color: var(--subtle-text-color);
+}
+
+.modal-button {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-button:hover,
+.modal-button:focus {
+  background-color: var(--pressed-state-color);
 }
