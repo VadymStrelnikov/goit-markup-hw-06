@@ -465,13 +465,17 @@ a {
   border-radius: 4px;
   padding: 8px 24px;
   min-width: 165px;
+  height: 40px;
   background-color: var(--primary-brand-color);
-
-  display: inline-flex;
-  align-items: center;
+  justify-content: center;
   gap: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
 }
 .our-team-icons {
+  margin-left: 16px;
 }
 .input-email-footer {
   outline: none;
@@ -482,6 +486,9 @@ a {
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   padding: 8px 16px;
+  color: #ffffff;
+  line-height: 2;
+  letter-spacing: 0.04em;
 }
 
 /* modal ------------------------*/
