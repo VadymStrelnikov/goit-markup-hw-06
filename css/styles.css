@@ -473,6 +473,8 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+  display: flex;
+  align-items: center;
 }
 .our-team-icons {
   margin-left: 16px;
