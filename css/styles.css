@@ -476,6 +476,7 @@ a {
   color: #ffffff;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .input-email-footer {
@@ -589,7 +590,7 @@ a {
   fill: var(--dark-color);
   position: absolute;
   top: 50%;
-  left: 16px;
+  margin-left: 16px;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
@@ -641,9 +642,79 @@ a {
 .modal-button {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: var(--main-bg-color);
+  background-color: var(--primary-brand-color);
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 16px 32px;
+  min-width: 169px;
+  height: 56px;
+  transition: transform 350ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-button:hover,
 .modal-button:focus {
   background-color: var(--pressed-state-color);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.checkbox-wrapper {
+  margin-bottom: 24px;
+  margin-top: 16px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.checkbox-label {
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--subtle-text-color);
+}
+.custom-checkbox {
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  width: 16px;
+  height: 16px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: transparent;
+}
+.privacy-link {
+  line-height: 1.33;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: var(--primary-brand-color);
+}
+.visually-hidden:checked + .checkbox-label > .custom-checkbox {
+  border-color: transparent;
+  background-color: #404bbf;
+  fill: #f4f4fd;
+  border: none;
 }
