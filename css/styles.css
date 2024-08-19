@@ -552,8 +552,8 @@ a {
   border: none;
 }
 
-.modal-close-btn:hover .icon-close,
-.modal-close-btn:focus .icon-close {
+.modal-close-btn:hover > .icon-close,
+.modal-close-btn:focus > .icon-close {
   fill: var(--main-bg-color);
 }
 
@@ -720,7 +720,6 @@ a {
   color: var(--primary-brand-color);
 }
 .visually-hidden:checked + .checkbox-label > .custom-checkbox {
-  border-color: transparent;
   background-color: #404bbf;
   fill: #f4f4fd;
   border: none;
